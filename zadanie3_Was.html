@@ -2,15 +2,49 @@
      <head> 
             <title> Wasilewska3F</title> 
           <script language="JavaScript"> 
-             function WinOpen()  
+document.write("Szkielet zaliczeniowy JavaScript, wykonała: Kasia Wasilewska klasa3F".fontcolor("red").bold().fontsize(2) + "<br><br>");
+
+	function WinOpen_1()  
                { 
-window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=400,width=524,top=200,left=200"); 
+window.open("z1_Wasi.html","okienko_z2","toolbar=no,directories=no,menubar=no,height=400,width=524,top=200,left=200"); 
                } 
+	function WinOpen_2()  
+               { 
+window.open("Zadanie2_Wasilewska.html","okienko_z2","toolbar=no,directories=no,menubar=no,height=400,width=524,top=200,left=200"); 
+               } 
+             function WinOpen_3()  
+               { 
+window.open("obraz.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=400,width=524,top=200,left=200"); 
+               } 
+	function WinOpen_z4() 
+ {
+window.open("zadanie4_Was.html","okienko_z4","toolbar=no,directories=no,menubar=no,height=600,width=600,top=200,left=400");
+ }
+	function WinOpen_z5() 
+ {
+window.open("zadanie5_Was.html","okienko_z5","toolbar=no,directories=no,menubar=no,height=300,width=1100,top=730,left=50");
+ }
+function okno_zamknij() 
+ {
+ window.close()
+ }
+ </script>
+ </head>
+<body>
+
+</body>
+</html>
           </script> 
       </head> 
 <body> 
    <form> 
-  <input type="button" name="zadanie3" value="zadanie3-Wasilewska" onclick="WinOpen(' ')"> 
+	<input type="button" name="zadanie1-Wasilewska" value="zadanie1-Wasilewska" onclick="WinOpen_1(' ')"> 
+	<input type="button" name="zadanie2-Wasilewska" value="zadanie2-Wasilewska" onclick="WinOpen_2(' ')"> 
+	<input type="button" name="zadanie3-Wasilewska" value="zadanie3-Wasilewska" onclick="WinOpen_3(' ')"> 
+	<input type="button" name="zadanie4-Wasilewska" value="zadanie4-Wasilewska" onclick="WinOpen_z4(' ')"> 
+	<input type="button" name="zadanie5-Wasilewska" value="zadanie5-Wasilewska" onclick="WinOpen_z5(' ')">
+
+ <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
     </form> 
 </body> 
 </html>
